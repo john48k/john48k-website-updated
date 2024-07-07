@@ -12,16 +12,38 @@
   font-weight: 900;
   font-size: 56px;
   font-family: contact;
+  margin: 0;
+  padding: 0%;
 }
 
 .contact-title-container {
-  margin: 40px 392px;
+  margin: 10px 392px;
   padding: 0px;
+  /* background-color: aqua; */
 }
 
 #contact-submit {
   margin-top: 5px;
   cursor: pointer;
+  height: 25px;
+  width: 50px;
+  background-color: white;
+  transition: background-color 0.4s;
+}
+
+#contact-submit:hover {
+  margin-top: 5px;
+  cursor: pointer;
+  height: 25px;
+  width: 50px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+#contact-submit:active {
+  background-color: rgb(99, 97, 97); /* darker background color on click */
+  transform: translateY(1px); /* slight press effect */
+  transition: background-color 0.1s, transform 0.1s; /* faster transition for click */
 }
 
 #email-contact {
