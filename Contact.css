@@ -1,0 +1,40 @@
+@font-face {
+  font-family: contact;
+  src: url(Fonts/Positive\ System.otf);
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+.contact-title {
+  font-weight: 900;
+  font-size: 56px;
+  font-family: contact;
+}
+
+.contact-title-container {
+  margin: 40px 392px;
+  padding: 0px;
+}
+
+#contact-submit {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#email-contact {
+  height: 20px;
+  width: 300px;
+}
+
+#message-contact {
+  height: 100px;
+  width: 300px;
+  resize: none;
+}
+
+.font-contact {
+  font-family: sans-serif;
+}
