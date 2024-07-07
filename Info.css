@@ -1,0 +1,24 @@
+.pic-class-alt {
+  cursor: pointer;
+  width: 550px;
+  height: 90px;
+  display: block;
+  margin: 3px auto;
+  top: 44px;
+  text-decoration: none;
+}
+
+.Title-center a {
+  text-decoration: none;
+}
+
+.link-none {
+  text-decoration: none;
+}
+
+.info-paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  text-align: center;
+}
