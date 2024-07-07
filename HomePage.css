@@ -1,0 +1,44 @@
+@font-face {
+  font-family: myFont;
+  src: url(Bad.ttf);
+}
+
+.Title-center {
+  text-align: center;
+}
+
+.Title {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  display: inline;
+}
+
+.official_site {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 17px;
+}
+
+.pic-class {
+  cursor: pointer;
+  width: 620px;
+  height: 100px;
+  display: block;
+  margin: 3px auto;
+  top: 44px;
+}
+
+.pic-class-bottom-container {
+  text-align: center;
+}
+
+.pic-class-bottom {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 1px;
+}
